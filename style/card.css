@@ -1,0 +1,117 @@
+.card{
+    background: white;
+    margin: 0;
+}
+.blank{
+    margin-top: 114px;
+}
+.cardgrid{
+    display: grid;
+    grid-gap: auto;
+
+    grid-template-rows: 136px 70px 70px 126px auto;
+    grid-template-columns: 480px 68px 134px 33px 350px;
+    
+    margin-left: 156px;
+    
+}
+
+.map2-img{
+
+    border-radius: 60px;
+    grid-row: 1/6;
+    grid-column: 1/1;
+}
+
+.card-txt-1{
+ 
+    font-size: 45px;
+    grid-row: 1/1;
+    grid-column: 3/6;
+
+    font-weight: 500;
+    text-align: start;
+    /* text-justify: start; */
+
+}
+
+.circle-img{
+
+width: 134px;
+height: 134px;
+border-radius: 71.5px;
+background-color: #FFAA99;
+
+grid-row: 2/span 2;
+grid-column: 2/span 2;
+margin-left: 68px;
+}
+
+.alpanasap{
+
+    grid-row: 2/2;
+    grid-column: 5/5;
+    align-items: end;
+    font-size: 33px;
+    font-weight: 500;
+    padding: 0 0 10px 0;
+    align-self: end;
+
+}
+
+.lng{
+
+    grid-row: 3/3;
+    grid-column: 5/5;
+
+    font-size: 25px;
+    font-weight: 400;
+    color: rgba(15, 31, 28, 0.5);
+
+}
+
+.card-txt-2{
+    display: grid;
+    padding-top: 60px;
+    grid-row: 4/4;
+    grid-column: 3/6;
+    color: rgba(15, 31, 28, 0.5);
+    font-size: 22px;
+    font-weight: 500;
+
+    
+    
+}
+
+
+.star{
+    grid-row: 5/5;
+    grid-column: 3/6;
+    display: grid;
+    grid-template-columns: 58px 8px 58px 8px 58px 8px 58px 8px 58px;
+    grid-template-rows: auto;
+
+    padding-top: 30px;
+ 
+
+}
+.star-img1{
+    padding-right: 10px;
+    grid-column: 1/1;
+}
+.star-img2{
+    padding-right: 10px;
+    grid-column: 3/3;
+}
+.star-img3{
+    padding-right: 10px;
+    grid-column: 5/5;
+}
+.star-img4{
+    padding-right: 10px;
+    grid-column: 7/7;
+}
+.star-img5{
+    padding-right: 10px;
+    grid-column: 9/9;
+}

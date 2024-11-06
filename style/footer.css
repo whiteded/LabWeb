@@ -1,0 +1,84 @@
+
+
+.footer {
+    margin-top: 184px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 500;
+
+    padding: 10px 20px;
+}
+
+.foot-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+
+}
+
+.foot-text-decoration-none:hover{
+    text-decoration: underline;
+}
+
+
+.foot-text-decoration-none {
+    text-decoration: none;
+    color: rgba(15, 31, 28, 1);
+}
+
+.foot-log{
+    display: flex;
+    align-items: center;
+
+
+}
+
+.foot-login {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 128px;
+    height: 49px;
+    /* padding: 10px 20px; */
+    font-size: 15px;
+    background-color: #da625c;
+
+    border-radius: 100px;
+}
+.foot-login:hover{
+    background-color: red;
+
+}
+
+.foot-signin {
+    display: flex;
+
+    align-items: center;
+    padding: 5px 15px;
+ 
+    height: 10px;
+    color: rgba(15, 31, 28, 1);
+}
+
+.foot-signin:hover{
+    height: 37px;
+    border-radius: 100px;
+    background-color: gray;
+}
+
+.foot-logo {
+    display: flex;
+    padding-left: 100px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(255, 124, 78, 1);
+}
+
+
