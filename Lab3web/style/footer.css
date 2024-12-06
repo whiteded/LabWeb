@@ -1,0 +1,17 @@
+.form__footer-content {
+    margin-top: 40px;
+  }
+  .form__footer-text {
+    font-family: Commissioner;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #1a071066;
+  }
+  .form__forer-text_decorate {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    color: rgb(58, 97, 238);
+  }

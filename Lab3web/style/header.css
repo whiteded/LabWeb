@@ -1,0 +1,27 @@
+.form__horizontal-layout {
+    display: inline;
+    width: 120px;
+    height: 56px;
+  }
+  .form__register {
+    margin-right: 16px;
+    width: 60px;
+    height: 56px;
+  }
+  .form__register_active {
+    box-shadow: 0px -2px 0px 0px #ef498f inset;
+  }
+  .form__button-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #1a0710a6;
+  }
+  .form__remove {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 32px;
+    left: 446px;
+  }

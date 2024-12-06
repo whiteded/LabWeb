@@ -1,0 +1,183 @@
+* {
+  font-family: Commissioner;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.form {
+  box-shadow: 0px 17px 46px 0px #5c636b14;
+  width: 502px;
+  height: 592px;
+  border-radius: 24px;
+  padding: 16px 44px 0px 44px;
+  position: relative;
+}
+
+.form__login-with {
+  margin-top: 32px;
+  display: flex;
+  gap: 16px;
+}
+.form__login-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  background-color: #f6f6f6;
+  border-radius: 50%;
+}
+.form-content {
+  margin-top: 28px;
+}
+.form-content__description {
+  font-family: Commissioner;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #1a071066;
+  width: 124px;
+  height: 20px;
+}
+.form-content__group {
+  position: relative;
+}
+.form-content__label {
+  font-family: Commissioner;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #1a0710a6;
+  width: 73px;
+  height: 20px;
+  position: absolute;
+  top: 6px;
+  left: 16px;
+}
+.form-content__input-wrapper {
+  margin-top: 20px;
+  position: relative;
+}
+.form-content__input {
+  padding: 26px 16px 6px 16px;
+  border-radius: 16px;
+  width: 414px;
+  height: 56px;
+  border: 1px solid #dddddd;
+  font-family: Commissioner;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #1a0710d9;
+}
+.form-content__input:focus {
+  border: 2px solid #ef498f;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.form-content__input:focus::placeholder {
+  font-family: Commissioner;
+  font-size: 16px;
+  font-weight: 500;
+
+  letter-spacing: 1px;
+}
+.form-content__input::placeholder {
+  font-family: Commissioner;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #1a0710d9;
+}
+
+.form-content__icon {
+}
+.form-content__icon_success {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 16px;
+  left: 350px;
+}
+.form-content__icon_toggle {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 18px;
+  left: 378px;
+}
+.form-content__hint {
+  width: 414px;
+  height: 20px;
+  font-family: Commissioner;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 4px;
+  color: #1a0710a6;
+}
+.form-content__button {
+  margin-top: 32px;
+  width: 414px;
+  height: 56px;
+  padding: 0px 36px 0px 36px;
+  gap: 8px;
+  border-radius: 12px;
+  background: #ef498f;
+}
+.form-content__text-button {
+  width: 113px;
+  height: 24px;
+  font-family: Commissioner;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: #ffffff;
+  display: inline;
+}
+.form-content__checkbox {
+  margin-top: 16px;
+}
+.form-content__checkbox-input {
+  appearance: none;
+  background: #ef498f1f;
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  position: relative;
+  margin-right: 12px;
+  margin-bottom: -2px;
+}
+
+.form-content__checkbox-input:checked::after {
+  content: ""; /* Псевдоэлемент для галочки */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg); /* Центрируем и поворачиваем для галочки */
+  width: 6px;
+  height: 12px;
+  border: 2px solid #ef498f; /* Цвет галочки */
+  border-width: 0 2px 2px 0;
+  display: block;
+}
+.form-content__checkbox-label {
+  width: 180px;
+  height: 16px;
+  font-family: Commissioner;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #1a0710d9;
+}
+
