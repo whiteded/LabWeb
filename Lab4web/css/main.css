@@ -1,0 +1,135 @@
+.header {
+    background-color: #1A3129;
+    display: flex;
+    padding: 20px 162px;
+}
+
+.title-block {
+    display: flex;
+    padding-right: 162px;
+    margin-top: 71px;
+    gap: 50px;
+}
+
+.features {
+    width: 1596px;
+    margin: 162px auto;
+}
+
+.blogs {
+    width: 1596px;
+    margin: 0 auto;
+}
+
+.prising {
+    width: 1596px;
+    margin: 140 auto;
+}
+
+.footer {
+    background-color: #1A3129;
+    padding: 50px 162px;
+}
+
+/* Стили для заголовков */
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    text-align: center;
+    width: 996px;
+}
+
+.title h1 {
+    color: #262626;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.title div {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Стили для текста */
+.text {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Мобильная версия */
+@media (max-width: 768px) {
+    .header {
+        background-color: #1A3129;
+        display: flex;
+        padding: 20px 16px;
+    }
+
+    .title-block {
+        display: flex;
+        flex-direction: column;
+        padding-right: 0;
+        margin-top: 0;
+        gap: 30px;
+    }
+    
+    .features {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 50px auto;
+    }
+    
+    .blogs {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .prising {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 55px auto;
+    }
+
+    .footer {
+        background-color: #1A3129;
+        padding: 30px 16px;
+    }
+
+    /* Стили для заголовков */
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0 auto;
+        text-align: center;
+        width: 90%;
+    }
+
+    .title h1 {
+        color: #262626;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .title div {
+        color: #333333;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    /* Стили для текста */
+    .text {
+        color: #333333;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
